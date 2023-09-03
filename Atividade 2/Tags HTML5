@@ -1,0 +1,66 @@
+Matheus Henrique de Sousa Cordeiro, RA G543653 - Trabalho 2
+
+Em HTML5, as Tags são elementos essenciais para estruturar e dar significado ao conteúdo das páginas da web. Elas são divididas em tags de abertura e fechamento, onde as primeiras iniciam um elemento com informações sobre sua apresentação, e as segundas indicam o fim do elemento.
+
+<!-------> - Para escrever comentários
+<!DOCTYPE> - Definir o tipo de documento
+<a> - Colocar hiperlink
+<audio> - Colocar áudio
+<b> - O texto fica em negrito
+<base> - Especifica o URL/base alvo para todos os URLs relativos em um documento
+<body> - O corpo do documento
+<br> - Quebra de linha simples
+<embed> - Inserir contêiner para um aplicativo externo, seja imagem, vídeo ou outra página HTML.
+<footer> - Rodapé para um documento ou seção
+<form> - Formulário HTML
+<h1> a <h6> - Cabeçalhos HTML
+<head> - Metadados/informações para o documento
+<header> - Cabeçalho para um documento ou seção
+<html> - Raiz de um documento HTML
+<img> - Inserir uma imagem
+<li> - Item de lista
+<tr> - Linha em uma tabela
+<track> - Faixas de texto para elementos de mídia (<video> e <audio>)
+<u> - Texto que não está articulado e estilizado de forma diferente do texto normal
+<ul> - Lista não ordenada
+<var> - Define uma variável
+<video> - Inserir Vídeos
+<main> - Especifica o conteúdo principal de um documento
+<map> - Mapa de imagens
+<mark> - Texto marcado/destacado
+<meta> - Metadados sobre um documento HTML
+<nav> - Links de navegação
+<ol> - Lista ordenada
+<output> - Resultado de um cálculo
+<p> - Parágrafo
+<picture> - Define um contêiner para vários recursos de imagem
+<pre> - Texto pré-formatado
+<progress> - Progresso de uma tarefa
+<section> - Seção em um documento
+<small> - Texto menor
+<source> - Recursos de mídia para elementos de mídia (<video> e <audio>)
+<strong> - Texto importante
+<style> - Informações de estilo para um documento
+<sub> - Texto subscrito
+<summary> - Cabeçalho visível para um elemento <details>
+<button> - Botão
+<caption> - Legenda para tabelas
+<code> - Inserir código de computador
+<details> - Detalhes adicionais que o usuário pode visualizar ou ocultar
+<dialog> - Caixa de diálogo ou janela
+<div> - Seção em um documento
+<table> - Tabela
+<tbody> - Agrupa o conteúdo do corpo em uma tabela
+<td> - Célula em uma tabela
+<tfoot> - Agrupa o conteúdo do rodapé em uma tabela
+<th> - Define uma célula de cabeçalho em uma tabela
+<thead> - Agrupa o conteúdo do cabeçalho em uma tabela
+<time> - Colocar um horário específico (ou data e horário)
+<title> - Título para o documento
+
+Referências:
+MOURA, Beatriz. O que é o HTML e suas tags? Parte 1: estrutura básica. Alura. 2021. Disponível em: <https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica/>. Acesso em: 20 Aug. 2023.
+
+JUNIOR, Elias. Principais Tags de HTML. Código Fonte. 2007. Disponível em: <https://www.codigofonte.com.br/artigos/principais-tags-de-html/>. Acesso em: 20 Aug. 2023.
+
+W3Schools. HTML Element Reference. W3Schools. 2023. Disponível em: <https://www.w3schools.com/tags/default.asp/>. Acesso em: 20 Aug. 2023.

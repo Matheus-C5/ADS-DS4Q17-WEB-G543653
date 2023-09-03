@@ -1,0 +1,82 @@
+Matheus Henrique de Sousa Cordeiro, RA G543653
+
+O que é HTML e HTML5?
+HTML, ou HyperText Markup Language (Linguagem de Marcação de Hipertexto), é a base de qualquer página da web. Ele atua como esqueleto estrutural, permitindo que os desenvolvedores definam a hierarquia do conteúdo. HTML utiliza várias "tags" para delinear diferentes elementos em uma página, como títulos, parágrafos, imagens e links.
+
+HTML5 é a evolução do HTML e traz consigo uma série de recursos avançados que revolucionaram o desenvolvimento web. Ele não apenas mantém as funcionalidades do HTML anterior, mas também introduz novas capacidades que são essenciais para a criação de websites modernos e ricos em recursos.
+
+Vantagens do HTML5:
+Multimídia Aprimorada: Uma das maiores vantagens do HTML5 é a incorporação simplificada de elementos multimídia, como áudio e vídeo, sem a necessidade de plugins externos. Isso não apenas melhora a experiência do usuário, mas também simplifica o processo de desenvolvimento.
+
+Estrutura Semântica: O HTML5 introduz elementos de marcação semântica que descrevem melhor o conteúdo. Isso não só auxilia os desenvolvedores, mas também os mecanismos de busca na compreensão do contexto da página, resultando em melhores classificações nos resultados de pesquisa.
+
+Compatibilidade Móvel: Com o aumento do uso de dispositivos móveis, o HTML5 trouxe recursos que facilitam a adaptação de sites para diferentes tamanhos de tela. Isso é crucial para melhorar a experiência do usuário em dispositivos móveis e também é um fator importante para o SEO.
+
+Armazenamento Local: HTML5 introduz recursos de armazenamento local, permitindo que os websites armazenem dados no navegador do usuário. Isso é útil para aplicativos da web que precisam funcionar offline e também oferece uma maneira mais eficiente de lidar com cookies.
+
+A função primordial de um navegador web (como o Chrome, Edge, Firefox, ou Safari) consiste em interpretar documentos HTML e apresentá-los de forma precisa e atraente. Embora as tags HTML não sejam visíveis para os usuários, são elas que direcionam o navegador sobre como renderizar o conteúdo do documento. Garantindo assim uma experiência visualmente cativante e coerente para os espectadores.
+
+A Sintaxe básica de um Arquivo HTML5:
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Minha página de teste</title>
+  </head>
+  <body>
+    <img src="images/firefox-icon.png" alt="minha página de teste" />
+  </body>
+</html>
+
+O doctype HTML é uma parte inicial obrigatória do documento, criada para definir regras que a página deve seguir. Atualmente, sua função é garantir o comportamento correto do documento. O elemento <html> envolve todo o conteúdo da página, conhecido como elemento raiz. O elemento <head> contém informações não visíveis, como palavras-chave, descrições e CSS. O elemento <meta charset="utf-8"> define o conjunto de caracteres como UTF-8, permitindo a manipulação de diversos idiomas. O elemento <title> define o título da página exibido na guia do navegador. O elemento <body> contém o conteúdo visível, como texto, imagens, vídeos e áudios.
+
+O elemento <img> incorpora imagens à página usando o atributo src para definir o caminho do arquivo de imagem. O atributo alt fornece um texto descritivo para usuários que não conseguem ver a imagem. Isso é útil para acessibilidade e situações em que a imagem não pode ser exibida.
+
+Os elementos de cabeçalho permitem definir partes do conteúdo como títulos ou subtítulos. Assim como um livro tem títulos e capítulos, um documento HTML também possui hierarquia de títulos. HTML inclui 6 níveis de título, de <h1> a <h6>.
+
+<h1>Meu título principal</h1>
+<h2>Meu título de alto nível</h2>
+<h3>Meu subtítulo</h3>
+<h4>Meu segundo subtítulo</h4>
+
+os elementos <p> são usados para agrupar parágrafos de texto. Eles são frequentemente empregados para estruturar conteúdo de texto regular.
+
+<p>Este é um parágrafo simples</p>
+
+A tag <a> define um hiperlink. O atributo href especifica o URL da página para onde o link direciona.
+
+<a href="https://www.w3schools.com">Visit W3Schools</a>
+
+A tag <img> também deve conter os atributos width e height, que especificam a largura e altura da imagem (em pixels).
+
+<img src="img_girl.jpg" width="500" height="600">
+
+Motores dos Navegadores:
+Um navegador web é a porta de entrada para explorar a internet. Escolher o navegador certo é crucial, pois influencia a velocidade de carregamento das páginas, a compatibilidade com diferentes sites e até a segurança dos seus dados pessoais.
+
+A função do motor de renderização em navegadores é exibir conteúdo da web, usando instruções de código como HTML, CSS e JavaScript. Cada navegador tem seu próprio motor, interpretando as especificações das linguagens de programação de maneira única.
+
+Atualmente, os navegadores populares usam quatro motores de renderização principais:
+
+WebKit: Aberto e usado pelo Safari no OS X e iOS, além de outros navegadores móveis, como no Android.
+
+Blink: Derivado do WebKit, usado no Chrome, Opera, Amazon Silk e WebView do Android.
+
+Gecko: Desenvolvido pela Mozilla e usado no Firefox, compatível com diversos sistemas.
+
+Trident: Criado pela Microsoft para o Internet Explorer, e uma versão renovada, EdgeHTML, é usada no Microsoft Edge.
+
+Referências:
+
+ESTRELLA, Carlos. O Que é HTML5 e Quais Vantagens ele Traz para seu Site. Hostinger. 2023. Disponível em: <https://www.hostinger.com.br/tutoriais/diferenca-entre-html-e-html5/>. Acesso em: 14 Aug. 2023.
+
+W3SCHOOLS. HTML Introduction. W3Schools. 2023. Disponível em: <https://www.w3schools.com/html/html_intro.asp/>. Acesso em: 14 Aug. 2023.
+
+Mozilla. HTML básico. MDN Web Docs. 2023. Disponível em: <https://developer.mozilla.org/pt-BR/docs/learn/getting_started_with_the_web/html_basics/>. Acesso em: 14 Aug. 2023.
+
+W3SCHOOLS. HTML Basic Examples. W3Schools. 2023. Disponível em: <https://www.w3schools.com/html/html_basic.asp/>. Acesso em: 16 Mai. 2023.
+
+W3SCHOOLS. HTML Attributes. W3Schools. 2023. Disponível em: <https://www.w3schools.com/html/html_attributes.asp/>. Acesso em: 14 Aug. 2023.
+
+IDEAPEDIA. HTML - Renderização de elementos. Ideapedia. 2023. Disponível em: <https://www.ideapedia.com.br/SiteRefTec/html/25-RenderizacaoHTML.html/>. Acesso em: 14 Aug. 2023.
