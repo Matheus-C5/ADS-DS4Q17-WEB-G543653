@@ -1,0 +1,43 @@
+﻿@model MVC_MySQL.Models.Usuario
+
+@{
+    ViewData["Title"] = "Deletar Usuário";
+}
+
+<h1>Deletar Usuário</h1>
+
+<h4>Tem Certeza que quer deletar o Usuário?</h4>
+
+<div>
+    <h4>Usuário</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RG)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RG)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+    </dl> <br/>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ID" />
+        <input type="submit" value="Deletar" class="btn btn-danger"/>
+    </form> <br/>
+
+    <div>
+        <a asp-action="Index">Voltar para a Página Inicial</a>
+    </div>
+</div>
